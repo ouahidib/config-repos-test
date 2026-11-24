@@ -1,0 +1,11 @@
+
+# ----- gateway-ms.properties
+server.port=8888
+
+spring.cloud.gateway.server.webflux.discovery.locator.enabled=true
+spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id=true
+management.endpoints.web.exposure.include=health,info,gateway
+# http://localhost:8888/actuator/gateway/routes
+management.endpoint.gateway.enabled=true
+
+
